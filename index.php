@@ -53,7 +53,7 @@
         <div class="collapse navbar-collapse justify-content-end" data-nav-image="./assets/img/blurred-image-1.jpg">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)" onclick="scrollToBirrifici()">
+                    <a class="nav-link" href="birrifici.php" onclick="scrollToBirrifici()">
                         <i class="now-ui-icons beer"></i>
                         <p>Birrifici</p>
                     </a>
@@ -109,11 +109,11 @@
     <div class="page-header clear-filter" filter-color="">
         <!--<div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/atb/sfondo+texture.png');">
         </div>-->
-        <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/atb/stelle.png');">
+        <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/atb/stelle.png');" >
         </div>
 
-        <img class="fiore-atb" src="./assets/img/atb/ATB_web_Alfa-03.png" alt="" >
-        <img class="scritta-atb" src="./assets/img/atb/ATB_web_Alfa-01_tagliato.png" alt="" >
+        <img class="d-none d-lg-block" src="./assets/img/atb/sito_header_md.png" alt="" >
+        <img class="d-block d-lg-none" src="./assets/img/atb/sito_header_xs.png" alt="" >
             <!--div class="container-fluid " style="position: absolute;
   bottom: 0;
   ">
@@ -136,7 +136,39 @@
 
 
 
-
+    <div class="container-fluid" style="margin-top: 50px">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-3  d-flex align-items-center justify-content-center">
+                <a href="" target="_blank">
+                    <img src="assets/img/loghi/sponsor/gold/bcc_roma2.png" class="sponsor-img1">
+                </a>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-3  d-flex align-items-center justify-content-center">
+                <a href="" target="_blank">
+                    <img src="assets/img/loghi/sponsor/gold/coop_tirreno2.png" class="sponsor-img1">
+                </a>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-3  d-flex align-items-center justify-content-center">
+                <a href="" target="_blank">
+                    <img src="assets/img/loghi/sponsor/gold/logo-ergonet.png" class="sponsor-img1" style="padding-top: 10%; padding-bottom: 10%;">
+                </a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3  d-flex align-items-center justify-content-center">
+                <a href="" target="_blank">
+                    <img src="assets/img/loghi/sponsor/gold/tigre2.png" class="sponsor-img1">
+                </a>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3  d-flex align-items-center justify-content-center">
+                <a href="" target="_blank">
+                    <img src="assets/img/loghi/sponsor/gold/RAFF.jpg" class="sponsor-img1" >
+                </a>
+            </div>
+        </div>
 
 
 
@@ -172,20 +204,27 @@
                     </div>
 
                     <div class="row margin-left-row ">
-                        <div class="col-4  col-md-2 logo-birrifici "><a href="http://www.birraaltaquota.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/altaquota-logo.png"/>			</a></div><!--
-                 --><div class="col-4  col-md-2 logo-birrifici "><a href="https://www.birrificioamerino.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo_amerino.png"/>				</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.birrabai.it/" target="_blank">							    <img  src="assets/img/loghi/birrifici/logo-bai.png"/>					</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.birrabellazzi.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo-bellazzi.jpg"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.bibibir.it/" target="_blank">	                            <img  src="assets/img/loghi/birrifici/logo-bibibir.png"/>					</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.freelionsbeer.com/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo-freelions.png"/>				</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.birrificiohibu.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/LOGO-HIBU-2017.png"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="https://www.facebook.com/birrificiononretorico/" target="_blank">		<img  src="assets/img/loghi/birrifici/logo-nonretorico.jpg"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.poderelaberta.beer/" target="_blank">	                    <img  src="assets/img/loghi/birrifici/logo-plb.jpg"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.stavio.it/" target="_blank">								<img  src="assets/img/loghi/birrifici/logo-stavio.png"/>				</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="http://www.terredifaul.it/" target="_blank">							<img  src="assets/img/loghi/birrifici/logo-terredifaul.jpg"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="https://www.birrificiorenton.it/" target="_blank">					<img  src="assets/img/loghi/birrifici/renton.png"/>			</a></div><!--
-                     --><div class="col-4  col-md-2 logo-birrifici "><a href="https://it-it.facebook.com/bevibirratestadura/" target="_blank">		<img  src="assets/img/loghi/birrifici/testadura.png"/>				</a></div>
-
+                        <div class="col-2   col-md-2  "></div>
+                        <div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.birraaltaquota.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo-altaquota.png"/>			</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="https://www.birrificioamerino.it/" target="_blank">					<img  src="assets/img/loghi/birrifici/logo_amerino.png"/>				</a></div><!--
+                     --><div class="col-2 d-md-none   "></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.birrabai.it/" target="_blank">							    <img  src="assets/img/loghi/birrifici/logo-bai.png"/>					</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.birrabellazzi.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo-bellazzi.jpg"/>			</a></div><!--
+                     --><div class="d-none d-md-block  col-md-2 "></div><!--
+                     --><div class="d-none d-md-block  col-md-1 "></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.bibibir.it/" target="_blank">	                            <img  src="assets/img/loghi/birrifici/logo-bibibir.png"/>					</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.freelionsbeer.com/" target="_blank">						<img  src="assets/img/loghi/birrifici/logo-freelions.png"/>				</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.birrificiohibu.it/" target="_blank">						<img  src="assets/img/loghi/birrifici/LOGO-HIBU-2017.png"/>			</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="https://www.facebook.com/birrificiononretorico/" target="_blank">		<img  src="assets/img/loghi/birrifici/logo-nonretorico.jpg"/>			</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.poderelaberta.beer/" target="_blank">	                    <img  src="assets/img/loghi/birrifici/logo-plb.jpg"/>			</a></div><!--
+                     --><div class="d-none d-md-block  col-md-1 "></div><!--
+                     --><div class="d-none d-md-block  col-md-2 "></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.stavio.it/" target="_blank">								<img  src="assets/img/loghi/birrifici/logo-stavio.png"/>				</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="http://www.terredifaul.it/" target="_blank">							<img  src="assets/img/loghi/birrifici/logo-terredifaul.jpg"/>			</a></div><!--
+                     --><div class="col-2 d-md-none   "></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="https://www.birrificiorenton.it/" target="_blank">					<img  src="assets/img/loghi/birrifici/renton.png"/>			</a></div><!--
+                     --><div class="col-4  col-md-2 logo-birrifici d-flex align-items-center"><a href="https://it-it.facebook.com/bevibirratestadura/" target="_blank">		<img  src="assets/img/loghi/birrifici/testadura.png"/>				</a></div>
+                        <div class="col-2   col-md-1 "></div>
                     </div>
                 </div>
             </section>
@@ -332,22 +371,37 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 col-md-4">
-                            <img src="assets/img/sponsor/gold/bcc_roma.jpg" class="sponsor-img">
+                        <div class="col-2"></div>
+                        <div class="col-4  d-flex align-items-center">
+                            <a href="" target="_blank">
+                                <img src="assets/img/loghi/sponsor/gold/bcc_roma.jpg" class="sponsor-img">
+                            </a>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <img src="assets/img/sponsor/gold/coop_tirreno.jpg" class="sponsor-img">
+                        <div class="col-4  d-flex align-items-center">
+                            <a href="" target="_blank">
+                                <img src="assets/img/loghi/sponsor/gold/coop_tirreno.jpg" class="sponsor-img">
+                            </a>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <img src="assets/img/sponsor/gold/logo-ergonet.png" class="sponsor-img">
+                        <div class="col-2"></div>
+                        <div class="col-4  d-flex align-items-center">
+                            <a href="" target="_blank">
+                                <img src="assets/img/loghi/sponsor/gold/logo-ergonet.png" class="sponsor-img" style="padding-top: 20px; padding-bottom: 20px;">
+                            </a>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <img src="assets/img/sponsor/gold/tigre.jpg" class="sponsor-img">
+                        <div class="col-4  d-flex align-items-center">
+                            <a href="" target="_blank">
+                                <img src="assets/img/loghi/sponsor/gold/tigre.jpg" class="sponsor-img">
+                            </a>
                         </div>
-                        <div class="col-6 col-md-4">
-                            <img src="assets/img/sponsor/gold/RAFF.jpg" class="sponsor-img">
+                        <div class="col-4  d-flex align-items-center">
+                            <a href="" target="_blank">
+                                <img src="assets/img/loghi/sponsor/gold/RAFF.jpg" class="sponsor-img" >
+                            </a>
                         </div>
-                        
+                    </div>
+
+                    <div class="row">
+
 
                     </div>
                 </div>

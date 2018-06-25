@@ -8,6 +8,16 @@ body{
 }
 
 
+
+
+
+
+
+
+
+
+
+
 .scritta-atb{
     position: absolute;
     top: 5vh;
@@ -25,15 +35,35 @@ body{
 }
 
 
+
+
+
+/*header height responsive*/
+.page-header {
+    max-height: initial !important;
+}
+.index-page .page-header {
+    min-height: 125vh ;
+    height: 100% ;
+}
+
 @media (max-width:720px) {
     .index-page .page-header {
-        height: 100vh;
+        min-height: 100vh;
+        height: 100%;
     }
 }
 
 
+/*navbar font size*/
+.navbar .navbar-nav .nav-link:not(.btn) {
+    font-size: 0.8142em;
+}
+
+
+
 .section-title{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     margin-top: 50px;
 }
 
@@ -50,12 +80,11 @@ body{
 }
 
 .logo-birrifici img{
-    width: 70%;
+    width: 90%;
 }
 
 .logo-birrifici{
     margin-bottom: 50px;
-    vertical-align: middle;
 }
 
 h1, h2, h3,h4,h5{
@@ -76,12 +105,12 @@ h1, h2, h3,h4,h5{
 
 
 
-
+.sponsor-img1{
+    margin-bottom: 15px;
+}
 
 .sponsor-img{
-    position: absolute;
-    top:auto;
-    bottom: auto;
+    margin-bottom: 50px;
     width: 100%;
     background-color: white;
 }
@@ -157,4 +186,21 @@ h1, h2, h3,h4,h5{
 .forth-lineup-name{
     font-size: 1.8em;
     margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+/*header position in landing*/
+.page-header-image-landing{
+    background-position: top center !important;
+    z-index: 0 !important;
+}
+
+.title{
+    color:#2c2c2c;
 }

@@ -4840,7 +4840,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .landing-page .section-team .team .team-player img {
-    max-width: 100px;
+    /*max-width: 100px;*/
+    height: 100px;
 }
 
 .landing-page .section-team .team-player {
