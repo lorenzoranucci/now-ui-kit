@@ -1,0 +1,160 @@
+body{
+    font-size: 20px;
+    background-image: url('../img/atb/sfondo.png');
+    background-size:cover ;
+}
+.bg-primary {
+    background-color: #ddd548 !important;
+}
+
+
+.scritta-atb{
+    position: absolute;
+    top: 5vh;
+    max-height: 70%;
+    right: 0;
+}
+
+.fiore-atb{
+    position: absolute; bottom:0;max-height: 95%
+}
+
+.main , .section-images{
+    background: initial;
+    padding-top: 100px;
+}
+
+
+@media (max-width:720px) {
+    .index-page .page-header {
+        height: 100vh;
+    }
+}
+
+
+.section-title{
+    margin-bottom: 150px;
+    margin-top: 50px;
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/*Beer*/
+.margin-left-row{
+    margin-left: 15px;
+}
+
+.logo-birrifici img{
+    width: 70%;
+}
+
+.logo-birrifici{
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+h1, h2, h3,h4,h5{
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sponsor-img{
+    position: absolute;
+    top:auto;
+    bottom: auto;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bollino-day {
+    margin: 0 auto;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0;
+    color: #2C2F2B;
+    font-weight: 900;
+    font-size: 5.5em;
+    border-radius: 50%;
+    background-color: white;
+    font-family: LineUp;
+}
+
+
+@font-face {
+    font-family: LineUp;
+    src: url(ShadyLane.ttf);
+    font-weight:600;
+}
+
+
+.lineup-name{
+    text-align: center;
+    font-family: LineUp;
+    color:white;
+}
+
+
+
+
+.first-lineup-name{
+    font-size: 3.2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.second-lineup-name{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.third-lineup-name{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.forth-lineup-name{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
