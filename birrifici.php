@@ -41,7 +41,7 @@
 <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
     <div class="container">
         <div class="navbar-translate">
-            <a class="navbar-brand" href="http://atusciabirra.it" >
+            <a class="navbar-brand" href="index.php" >
                 A Tuscia Birra 8
             </a>
             <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,7 +102,7 @@
 <!-- End Navbar -->
 <div class="wrapper">
     <div class="page-header page-header-small">
-        <div class="page-header-image page-header-image-landing" data-parallax="true" style="background-image: url('assets/img/atb/atb_1920x1080_v1.png');">
+        <div class="page-header-image page-header-image-landing" data-parallax="true" style="background-image: url('assets/img/atb/atb_1920x1080_v2.png');">
         </div>
         <div class="container">
             <div class="content-center">

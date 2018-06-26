@@ -74,6 +74,12 @@ $(document).ready(function() {
         $(window).on('scroll', nowuiKitDemo.checkScrollForParallax);
     }
 
+    if ($(window).width() >= 992) {
+        big_image2 = $('.page-header-image[data-parallax2="true"]');
+
+        $(window).on('scroll', nowuiKitDemo.checkScrollForParallax2);
+    }
+
     // Activate Carousel
     $('.carousel').carousel({
         interval: 4000
@@ -452,7 +458,7 @@ nowuiKit = {
 
 
 var big_image;
-
+var big_image2;
 // Javascript just for Demo purpose, remove it from your project
 nowuiKitDemo = {
     checkScrollForParallax: debounce(function() {
@@ -466,9 +472,25 @@ nowuiKitDemo = {
             '-o-transform': 'translate3d(0,' + oVal + 'px,0)'
         });
 
-    }, 6)
+    }, 0),
+
+    checkScrollForParallax2: debounce(function() {
+        var current_scroll = $(this).scrollTop();
+
+        oVal = ($(window).scrollTop() / 1.2);
+        big_image2.css({
+            'transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-webkit-transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-ms-transform': 'translate3d(0,' + oVal + 'px,0)',
+            '-o-transform': 'translate3d(0,' + oVal + 'px,0)'
+        });
+
+    }, 0)
+
 
 }
+
+
 
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
